@@ -1,0 +1,22 @@
+label {
+        background: #90C3D4;
+        display: block;
+        color: #fff;
+	font-weight: bold;
+        padding: 8px;
+	margin: 4px;
+}
+input[name="control"], .slide {
+	display: none;
+}
+
+input[name="control"]:checked + label {
+	background: #6699FF;
+}
+
+input[name="control"]:checked + label + .slide{
+	display: block;
+}
+.slide {
+	padding: 8px;
+}
